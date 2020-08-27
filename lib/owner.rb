@@ -5,4 +5,5 @@ class Owner
     @name = name
   end
   
+  
 end
