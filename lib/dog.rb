@@ -1,6 +1,6 @@
 class Dog
   # code goes here
-  attr_writer :owner
+  attr_writer :owner, :nervous
   attr_reader :name
   
   
