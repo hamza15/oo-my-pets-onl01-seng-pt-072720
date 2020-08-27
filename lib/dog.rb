@@ -4,7 +4,7 @@ class Dog
   attr_reader :name
   
   
-  def initialize(name, owner, mood="nervous")
+  def initialize(name, owner)
     @name = name
     @owner = owner
   end
