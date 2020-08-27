@@ -49,7 +49,7 @@ class Owner
   end
   
   def walk_dogs(name)
-    Dog.new(name, self, "happy")
+    self.dog.
   end
   
   def feed_cats
