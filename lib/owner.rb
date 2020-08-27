@@ -14,4 +14,8 @@ class Owner
     "I am a #{species}."
   end
   
+  self.all
+    @@all
+  end
+  
 end
