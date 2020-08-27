@@ -7,6 +7,10 @@ class Owner
     save
   end
   
+  def save
+    @@all << self
+  end
+  
   def species(species="human")
     species
   end
